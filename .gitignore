@@ -1,0 +1,116 @@
+# === System / OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Node / Python / Build / Temp ===
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+*.cache/
+.cache/
+*.pid
+
+# === Rust ===
+target/
+Cargo.lock         # keep only if you want reproducible builds
+**/*.rs.bk
+.rustc_info.json
+
+# === C / Firmware ===
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+
+# === VSCode / Cursor ===
+.vscode/
+.vscode-test/
+.history/
+*.code-workspace
+*.cursor/
+*.cursor-cache/
+*.cursor-history/
+*.cursor-settings.json
+
+# === Warp terminal ===
+WARP.md
+.warp/
+warp.log
+warp-ai-history.json
+warp-prompts/
+warp-sessions/
+
+# === Neovim / JetBrains ===
+.idea/
+.vim/
+.nvim/
+*.swo
+*.swn
+*.un~
+*.tags
+
+# === Python virtualenvs (if used for AI scripts) ===
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# === ROS / Simulation artifacts ===
+log/
+*.bag
+*.db3
+*.urdf.xacro
+*.rviz
+ros2_ws/install/
+ros2_ws/build/
+ros2_ws/log/
+
+# === AI model artifacts ===
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+models/
+weights/
+datasets/
+checkpoints/
+
+# === Generated media / output ===
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.png
+*.gif
+output/
+recordings/
+
+# === Editor backups ===
+*~
+*.bak
+*.tmp
+*.orig
+
+# === Misc ===
+.env
+.env.local
+*.key
+*.pem
+*.crt
+*.lock
+i
